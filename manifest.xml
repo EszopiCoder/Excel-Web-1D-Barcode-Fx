@@ -24,7 +24,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+    <SourceLocation DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/taskpane/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -52,7 +52,7 @@
           </GetStarted>
           <FunctionFile resid="Commands.Url" />
           <ExtensionPoint xsi:type="PrimaryCommandSurface">
-            <OfficeTab id="TabHome">
+            <OfficeTab id="TabFormulas">
               <Group id="CommandsGroup">
                 <Label resid="CommandsGroup.Label" />
                 <Icon>
@@ -89,12 +89,12 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/assets/icons8-barcode-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://localhost:3000/public/functions.js" />
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://localhost:3000/public/functions.json" />
-        <bt:Url id="Functions.Page.Url" DefaultValue="https://localhost:3000/public/functions.html" />
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/functions/functions.js" />
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/functions/functions.json" />
+        <bt:Url id="Functions.Page.Url" DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/functions/functions.html" />
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx" />
-        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html" />
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html" />
+        <bt:Url id="Commands.Url" DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/commands/commands.html" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://eszopicoder.github.io/Excel-Web-1D-Barcode-Fx/taskpane/taskpane.html" />
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Functions.Namespace" DefaultValue="BARCODE" />
