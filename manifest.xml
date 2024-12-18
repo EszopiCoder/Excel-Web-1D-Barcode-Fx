@@ -103,8 +103,8 @@
         <bt:String id="TaskpaneButton.Label" DefaultValue="Show Help" />
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your 1D Barcode Functions add-in loaded successfully. Go to the HOME tab and click the 'Show Task Pane' button to get started." />
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Task Pane" />
+        <bt:String id="GetStarted.Description" DefaultValue="Your 1D Barcode Functions add-in loaded successfully. Go to the FORMULAS tab and click the 'Show Help' button to get started." />
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show Help" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
