@@ -34,7 +34,7 @@ function GS1_Check(source) {
   return Check_Digit;
 }
 
-CustomFunctions.associate("GS1_Check", GS1_Check);
+CustomFunctions.associate("GS1_CHECK", GS1_Check);
 
 /**
  * Return sparkline barcode format options.
