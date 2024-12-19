@@ -46,7 +46,7 @@ function BarcodeOpt() {
   return [["charttype","bar"],["color1","black"],["color2","white"]];
 }
 
-CustomFunctions.associate("BarcodeOpt", BarcodeOpt);
+//CustomFunctions.associate("BarcodeOpt", BarcodeOpt);
 
 /**
  * Generate raw Code 11 barcode.
@@ -82,7 +82,7 @@ function Code11(source) {
   return dest;
 }
 
-CustomFunctions.associate("Code11", Code11);
+//CustomFunctions.associate("Code11", Code11);
 
 /**
  * Generate raw Code 39 barcode.
@@ -137,7 +137,7 @@ function Code39(source, CHECK_DIGIT = false) {
   return dest;
 }
 
-CustomFunctions.associate("Code39", Code39);
+//CustomFunctions.associate("Code39", Code39);
 
 /**
  * Generate raw Code 93 barcode.
@@ -204,7 +204,7 @@ function Code93(source) {
   return dest;
 }
 
-CustomFunctions.associate("Code93", Code93);
+//CustomFunctions.associate("Code93", Code93);
 
 var ITFtable = ["11221", "21112", "12112", "22111", "11212",
               "21211", "12211", "11122", "21121", "12121"];
@@ -245,7 +245,7 @@ function ITF(source) {
   return dest;
 }
 
-CustomFunctions.associate("ITF", ITF);
+//CustomFunctions.associate("ITF", ITF);
 
 /**
  * Generate raw ITF-14 barcode.
@@ -288,7 +288,7 @@ function ITF_14(source) {
   return dest;
 }
 
-CustomFunctions.associate("ITF_14", ITF_14);
+//CustomFunctions.associate("ITF_14", ITF_14);
 
 //Global Variables
 var UPCParity0 = ["BBBAAA", "BBABAA", "BBAABA", "BBAAAB", "BABBAA", "BAABBA", "BAAABB", 
@@ -349,7 +349,7 @@ function UPCA(source) {
   return dest;
 }
 
-CustomFunctions.associate("UPCA", UPCA);
+//CustomFunctions.associate("UPCA", UPCA);
 
 /**
  * Generate raw UPC-E barcode.
@@ -432,7 +432,7 @@ function UPCE(source) {
   return dest;
 }
 
-CustomFunctions.associate("UPCE", UPCE);
+//CustomFunctions.associate("UPCE", UPCE);
 
 /**
  * Generate raw EAN-13 barcode.
@@ -489,7 +489,7 @@ function EAN_13(source) {
   return dest;
 }
 
-CustomFunctions.associate("EAN_13", EAN_13);
+//CustomFunctions.associate("EAN_13", EAN_13);
 
 /**
  * Generate raw EAN-5 barcode.
@@ -535,7 +535,7 @@ function EAN_5(source) {
   return dest;
 }
 
-CustomFunctions.associate("EAN_5", EAN_5);
+//CustomFunctions.associate("EAN_5", EAN_5);
 
 /**
  * Generate raw EAN-2 barcode.
@@ -580,4 +580,4 @@ function EAN_2(source) {
   return dest;
 }
 
-CustomFunctions.associate("EAN_2", EAN_2);
+//CustomFunctions.associate("EAN_2", EAN_2);
