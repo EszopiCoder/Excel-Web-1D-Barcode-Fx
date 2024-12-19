@@ -2,8 +2,8 @@
   "functions": [
     {
       "description": "Calculate GS1 check digit.",
-      "id": "GS1_Check",
-      "name": "GS1_Check",
+      "id": "GS1_CHECK",
+      "name": "GS1_CHECK",
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
