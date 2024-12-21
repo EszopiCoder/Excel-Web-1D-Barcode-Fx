@@ -17,6 +17,16 @@
         "type": "number",
         "dimensionality": "scalar"
       }
+    },
+    {
+      "description": "Return sparkline barcode format options.",
+      "id": "BARCODEOPT",
+      "name": "BARCODEOPT",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "result": {
+        "type": "string",
+        "dimensionality": "matrix"
+      }
     }
   ]
 }
