@@ -23,6 +23,7 @@
       "id": "BARCODEOPT",
       "name": "BARCODEOPT",
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [],
       "result": {
         "type": "string",
         "dimensionality": "matrix"
