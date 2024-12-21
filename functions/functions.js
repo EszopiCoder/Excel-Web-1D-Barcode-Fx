@@ -87,7 +87,7 @@ CustomFunctions.associate("CODE11", Code11);
 /**
  * Generate raw Code 39 barcode.
  * @param {string} source  Text to encode.
- * @param {boolean} CHECK_DIGIT [OPTIONAL] Add check digit.
+ * @param {boolean} [CHECK_DIGIT] Add check digit. (Default: False)
  * @return {number} Raw Code 39 barcode.
  * @customfunction
 */
