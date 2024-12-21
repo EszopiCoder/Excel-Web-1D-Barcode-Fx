@@ -35,3 +35,15 @@ function GS1_Check(source) {
 }
 
 CustomFunctions.associate("GS1_CHECK", GS1_Check);
+
+/**
+ * Return sparkline barcode format options.
+ * @return {string} Barcode format options for sparkline function.
+ * @customfunction
+*/
+function BarcodeOpt() {
+  // Javascript translation array: {"charttype","bar";"color1","black";"color2","white"}
+  return [["charttype","bar"],["color1","black"],["color2","white"]];
+}
+
+CustomFunctions.associate("BARCODEOPT", BarcodeOpt);
