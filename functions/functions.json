@@ -7,9 +7,9 @@
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
-          "description": "Numeric barcode",
+          "description": "Numeric barcode.",
           "name": "source",
-          "type": "number",
+          "type": "string",
           "dimensionality": "scalar"
         }
       ],
@@ -26,6 +26,67 @@
       "parameters": [],
       "result": {
         "type": "string",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw Code 11 barcode.",
+      "id": "CODE11",
+      "name": "CODE11",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw Code 39 barcode.",
+      "id": "CODE39",
+      "name": "CODE39",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "Text to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        },
+        {
+          "description": "Add check digit. (Default: False)",
+          "name": "CHECK_DIGIT",
+          "type": "boolean",
+          "dimensionality": "scalar",
+          "optional": "true"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw Code 93 barcode.",
+      "id": "CODE93",
+      "name": "CODE93",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
         "dimensionality": "matrix"
       }
     }
