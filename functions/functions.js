@@ -150,7 +150,7 @@ CustomFunctions.associate("CODE39", Code39);
  * @return {number} Raw Code 93 barcode.
  * @customfunction
 */
-function Code93(source) {
+function Code_93(source) {
   var Code93chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. $/+%";
   var Code93Table = ["131112", "111213", "111312", "111411", "121113", "121212", "121311",
         "111114", "131211", "141111", "211113", "211212", "211311", "221112", "221211", "231111",
@@ -209,7 +209,7 @@ function Code93(source) {
   return dest;
 }
 
-CustomFunctions.associate("CODE93", Code93);
+CustomFunctions.associate("CODE_93", Code_93);
 
 var ITFtable = ["11221", "21112", "12112", "22111", "11212",
               "21211", "12211", "11122", "21121", "12121"];
