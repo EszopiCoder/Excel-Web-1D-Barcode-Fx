@@ -60,7 +60,7 @@
           "dimensionality": "scalar"
         },
         {
-          "description": "Add check digit. (Default: False)",
+          "description": "Add check digit.",
           "name": "Check Digit",
           "type": "boolean",
           "dimensionality": "scalar"
