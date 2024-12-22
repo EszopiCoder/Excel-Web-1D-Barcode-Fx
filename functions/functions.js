@@ -91,7 +91,8 @@ CustomFunctions.associate("CODE11", Code11);
  * @return {number} Raw Code 39 barcode.
  * @customfunction
 */
-function Code39(source, CHECK_DIGIT) {
+function Code39(source) {
+  var CHECK_DIGIT;
   var Code39chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. $/+%";
   var Code39Table = ["1112212111", "2112111121", "1122111121", "2122111111", "1112211121",
     "2112211111", "1122211111", "1112112121", "2112112111", "1122112111", "2111121121",
