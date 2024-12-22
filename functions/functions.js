@@ -41,12 +41,12 @@ CustomFunctions.associate("GS1_CHECK", GS1_Check);
  * @return {string} Barcode format options for sparkline function.
  * @customfunction
 */
-function BarcodeOpt() {
+function Options() {
   // Javascript translation array: {"charttype","bar";"color1","black";"color2","white"}
   return [["charttype","bar"],["color1","black"],["color2","white"]];
 }
 
-CustomFunctions.associate("BARCODEOPT", BarcodeOpt);
+CustomFunctions.associate("OPTIONS", Options);
 
 /**
  * Generate raw Code 11 barcode.
@@ -54,7 +54,7 @@ CustomFunctions.associate("BARCODEOPT", BarcodeOpt);
  * @return {number} Raw Code 11 barcode.
  * @customfunction
 */
-function Code11(source) {
+function Code_11(source) {
   var Code11chars = "0123456789-";
   var Code11Table = ["111121", "211121", "121121", "221111", "112121",
             "212111", "122111", "111221", "211211", "211111", "112111"];
@@ -82,7 +82,7 @@ function Code11(source) {
   return dest;
 }
 
-CustomFunctions.associate("CODE11", Code11);
+CustomFunctions.associate("CODE_11", Code_11);
 
 /**
  * Generate raw Code 39 barcode.
@@ -91,7 +91,7 @@ CustomFunctions.associate("CODE11", Code11);
  * @return {number} Raw Code 39 barcode.
  * @customfunction
 */
-function Code39(source, CHECK_DIGIT) {
+function Code_39(source, CHECK_DIGIT) {
   var Code39chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ-. $/+%";
   var Code39Table = ["1112212111", "2112111121", "1122111121", "2122111111", "1112211121",
     "2112211111", "1122211111", "1112112121", "2112112111", "1122112111", "2111121121",
@@ -142,7 +142,7 @@ function Code39(source, CHECK_DIGIT) {
   return dest;
 }
 
-CustomFunctions.associate("CODE39", Code39);
+CustomFunctions.associate("CODE_39", Code_39);
 
 /**
  * Generate raw Code 93 barcode.
@@ -254,7 +254,7 @@ CustomFunctions.associate("ITF", ITF);
 
 /**
  * Generate raw ITF-14 barcode.
- * @param {string} source Even number of digits to encode.
+ * @param {string} source 14 digits to encode.
  * @return {number} Raw ITF-14 barcode.
  * @customfunction
 */
@@ -358,7 +358,7 @@ CustomFunctions.associate("UPCA", UPCA);
 
 /**
  * Generate raw UPC-E barcode.
- * @param {string} source  Digits to encode.
+ * @param {string} source  6-7 digits to encode.
  * @return {number} Raw UPC-E barcode.
  * @customfunction
 */
@@ -441,7 +441,7 @@ CustomFunctions.associate("UPCE", UPCE);
 
 /**
  * Generate raw EAN-13 barcode.
- * @param {string} source  Digits to encode.
+ * @param {string} source  13 digits to encode.
  * @return {number} Raw EAN-13 barcode.
  * @customfunction
 */
@@ -498,7 +498,7 @@ CustomFunctions.associate("EAN_13", EAN_13);
 
 /**
  * Generate raw EAN-5 barcode.
- * @param {string} source  Digits to encode.
+ * @param {string} source  5 digits to encode.
  * @return {number} Raw EAN-5 barcode.
  * @customfunction
 */
@@ -544,7 +544,7 @@ CustomFunctions.associate("EAN_5", EAN_5);
 
 /**
  * Generate raw EAN-2 barcode.
- * @param {string} source  Digits to encode.
+ * @param {string} source  2 digits to encode.
  * @return {number} Raw EAN-2 barcode.
  * @customfunction
 */
