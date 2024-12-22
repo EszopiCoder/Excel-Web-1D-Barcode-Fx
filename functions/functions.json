@@ -73,8 +73,8 @@
     },
     {
       "description": "Generate raw Code 93 barcode.",
-      "id": "CODE93",
-      "name": "CODE93",
+      "id": "CODE_93",
+      "name": "CODE_93",
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
