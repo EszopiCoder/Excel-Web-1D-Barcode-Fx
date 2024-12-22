@@ -63,7 +63,8 @@
           "description": "Add check digit. (Default: False)",
           "name": "CHECK_DIGIT",
           "type": "boolean",
-          "dimensionality": "scalar"
+          "dimensionality": "scalar",
+          "optional": "true"
         }
       ],
       "result": {
