@@ -20,8 +20,8 @@
     },
     {
       "description": "Return sparkline barcode format options.",
-      "id": "BARCODEOPT",
-      "name": "BARCODEOPT",
+      "id": "OPTIONS",
+      "name": "OPTIONS",
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [],
       "result": {
@@ -31,8 +31,8 @@
     },
     {
       "description": "Generate raw Code 11 barcode.",
-      "id": "CODE11",
-      "name": "CODE11",
+      "id": "CODE_11",
+      "name": "CODE_11",
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
@@ -49,8 +49,8 @@
     },
     {
       "description": "Generate raw Code 39 barcode.",
-      "id": "CODE39",
-      "name": "CODE39",
+      "id": "CODE_39",
+      "name": "CODE_39",
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
@@ -150,7 +150,7 @@
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
-          "description": "6-7 Digits to encode.",
+          "description": "6-7 digits to encode.",
           "name": "source",
           "type": "string",
           "dimensionality": "scalar"
@@ -168,7 +168,7 @@
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
-          "description": "13 Digits to encode.",
+          "description": "13 digits to encode.",
           "name": "source",
           "type": "string",
           "dimensionality": "scalar"
@@ -186,7 +186,7 @@
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
-          "description": "5 Digits to encode.",
+          "description": "5 digits to encode.",
           "name": "source",
           "type": "string",
           "dimensionality": "scalar"
@@ -204,7 +204,7 @@
       "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
       "parameters": [
         {
-          "description": "2 Digits to encode.",
+          "description": "2 digits to encode.",
           "name": "source",
           "type": "string",
           "dimensionality": "scalar"
