@@ -58,6 +58,12 @@
           "name": "source",
           "type": "string",
           "dimensionality": "scalar"
+        },
+        {
+          "description": "Add check digit. (Default: False)",
+          "name": "CHECK_DIGIT",
+          "type": "boolean",
+          "dimensionality": "scalar"
         }
       ],
       "result": {
