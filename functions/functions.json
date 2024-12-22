@@ -70,6 +70,150 @@
         "type": "number",
         "dimensionality": "matrix"
       }
+    },
+    {
+      "description": "Generate raw Code 93 barcode.",
+      "id": "CODE93",
+      "name": "CODE93",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw ITF barcode.",
+      "id": "ITF",
+      "name": "ITF",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "Even number of digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw ITF-14 barcode.",
+      "id": "ITF_14",
+      "name": "ITF_14",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "14 digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw EAN-8 or UPC-A barcode.",
+      "id": "UPCA",
+      "name": "UPCA",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "Digits to encode (EAN-8 is 8, UPC-A is 11-12).",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw UPC-E barcode.",
+      "id": "UPCE",
+      "name": "UPCE",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "6-7 Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw EAN-13 barcode.",
+      "id": "EAN_13",
+      "name": "EAN_13",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "13 Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw EAN-5 barcode.",
+      "id": "EAN_5",
+      "name": "EAN_5",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "5 Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
+    },
+    {
+      "description": "Generate raw EAN-2 barcode.",
+      "id": "EAN_2",
+      "name": "EAN_2",
+      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
+      "parameters": [
+        {
+          "description": "2 Digits to encode.",
+          "name": "source",
+          "type": "string",
+          "dimensionality": "scalar"
+        }
+      ],
+      "result": {
+        "type": "number",
+        "dimensionality": "matrix"
+      }
     }
   ]
 }
