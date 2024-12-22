@@ -48,31 +48,6 @@
       }
     },
     {
-      "description": "Generate raw Code 39 barcode.",
-      "id": "CODE39",
-      "name": "CODE39",
-      "helpUrl": "https://github.com/EszopiCoder/Excel-Web-1D-Barcode-Fx/",
-      "parameters": [
-        {
-          "description": "Text to encode.",
-          "name": "source",
-          "type": "string",
-          "dimensionality": "scalar"
-        },
-        {
-          "description": "Add check digit. (Default: False)",
-          "name": "CHECK_DIGIT",
-          "type": "boolean",
-          "dimensionality": "scalar",
-          "optional": "true"
-        }
-      ],
-      "result": {
-        "type": "number",
-        "dimensionality": "matrix"
-      }
-    },
-    {
       "description": "Generate raw Code 93 barcode.",
       "id": "CODE93",
       "name": "CODE93",
